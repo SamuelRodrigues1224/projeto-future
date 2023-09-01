@@ -1,0 +1,218 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,600&family=Sedgwick+Ave+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor01: #71658a91;
+    --cor2: #2D2933;
+    --cor3: #7252A3;
+    --cor4: #3D2B57;
+
+}
+:root{
+    --fonte01: arial, helvetica, sans-seriff;
+    --fonte02:'Sedgwick Ave Display', cursive;
+    --fonte03:'Bebas Neue', sans-serif;
+    --fonte04:'Alegreya', serif;
+
+
+}
+body{
+    background-color:var(--cor01);
+    font-family: var(--fonte01);
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color: var(--cor3);
+    padding-top: 20px;
+
+}
+header > h1 {
+    font-family: var(--fonte02);
+    text-align: center;
+    color: var(--cor4);
+    font-size: 3em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
+    
+}
+header p {
+    font-family: var(--fonte03);
+    color: var(--cor4);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.103);
+}
+nav{
+    width: 100%;
+    height: 38px;
+    background-color: var(--cor3);
+    padding-left: 5px;
+    padding-top: 38px;
+}
+nav > a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+nav > a:hover {
+    background-color: var(--cor2);
+    transition-duration: 0.4s;
+    color: var(--cor3);
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    
+
+}
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.8em;
+
+}
+main h1 {
+    font-family: var(--fonte04);
+    font-weight: bold;
+    font-size: 2.2em;
+    background-image: linear-gradient(to right, var(--cor3), white);
+    text-align: left;
+    color:black;
+}
+main h2 {
+    font-family: var(--fonte04);
+    font-weight: bold;
+    font-size: 2.2em;
+    text-decoration: double;
+    text-align: left;
+    color: var(--cor4);
+
+}
+main h3 {
+    color: var(--cor3);
+    font-family: var(--fonte03);
+    font-size: 1.5em;
+    text-align: left  ;
+}
+main a {
+    color: var(--cor3);
+    text-decoration: underline;
+
+}
+main img{
+    background-color: var(--cor4);
+    padding: 10px;
+}
+.video {
+    background-color: var(--cor3);
+    margin-bottom: 30px;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 2%;
+}
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left:5%;
+    height: 90%;
+    width: 90%;
+
+}
+
+main a:hover {
+    color: var(--cor01);
+    text-align: center;
+}
+div{
+    background-color:var(--cor01) ;
+    color: black;
+}
+div > h2 {
+    color: var(--cor3);
+    text-align: center;
+    background-color: var(--cor2);
+    border-radius: 5px 0px 0px 5px;
+
+}
+div > h3 {
+    text-align: center;
+    font-family: var(--fonte03);
+    font-size: 1.2em;
+}
+div > ul {
+    columns: 2;
+    list-style: inside;
+}
+li > a {
+    color: black;
+
+}
+footer {
+    
+    text-align: center;
+    background-color:var(--cor4);
+    color: white;
+    padding-left: 20px;  
+    padding-right: 20px;  
+    height: 200px;
+
+}
+footer p {
+    background-color: var(--cor3);
+    padding: 12px;
+    border-radius: 0px 0px 5px 5px;
+
+}
+footer a {
+    color: white;
+    text-indent: 20px;
+
+
+} 
+footer a:hover {
+    color: var(--cor2);
+    transition-duration: 0.4s;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    color:var(--cor01);
+    transition-duration: 0.4s;
+    text-decoration: none;
+    
+
+}
+footer h1 {
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 71px;
+
+}
+footer ul {
+    margin-top: 1px;
+    text-align: left;
+    text-indent: 50px;
+    list-style: inside;
+
+}
