@@ -119,6 +119,7 @@ main a {
 main img{
     background-color: var(--cor4);
     padding: 10px;
+    min-width: 100px;
 }
 .video {
     background-color: var(--cor3);
